@@ -8,6 +8,8 @@
 
 ## Use android.icu API
 
+- OSに入ってるicuライブラリのバージョンが違うので挙動が変わる
+
 | OS 8 (Api Level 26) | OS 11 (Api Level 30) |
 | --- | --- |
 | <img src="https://user-images.githubusercontent.com/16476224/105490210-c9f6bc00-5cf7-11eb-9c67-554d0727cfa0.png" width=320> | <img src="https://user-images.githubusercontent.com/16476224/105490117-a7fd3980-5cf7-11eb-862c-ed54f5a04fb4.png" width=320> |
