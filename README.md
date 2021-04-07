@@ -9,6 +9,7 @@
 ## Use android.icu API
 
 - OSに入ってるicuライブラリのバージョンが違うので挙動が変わる
+- OS: 11で使用しているICUライブラリは64.2以降のものなので令和表示される. http://site.icu-project.org/download/64
 
 | OS 8 (Api Level 26) | OS 11 (Api Level 30) |
 | --- | --- |
