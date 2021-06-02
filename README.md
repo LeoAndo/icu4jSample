@@ -5,7 +5,6 @@
 
 ## やり方１： ICU4Jライブラリを直接利用する
 OS:7 API Level 24未満をサポートしている場合で和暦表示する場合は、Android FWが提供するAPIは使用せずに、ICU4Jライブラリを直接利用する必要がある.<br>
-また、令和対応されたICU4Jライブラリを使用するとOS11より古いOSでも令和表記ができる。<br>
 
 app/build.gradle
 ```groovy
