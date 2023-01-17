@@ -29,7 +29,7 @@ dependencies {
 
 Androidでは、OS:7(API Level 24)から`android.icu` で、ICU4J APIの一部(サブセット)が提供された。<br>
 この`android.icu`パッケージのAPIを使用して和暦対応することが可能。<br>
-OS11(API Level 30)から和暦の令和表記に対応した [ICUライブラリver64.2](http://site.icu-project.org/download/64) をサポートしている。<br>
+OS11(API Level 30)から和暦の令和表記に対応した [ICUライブラリver64.2](https://github.com/unicode-org/icu/releases/tag/release-64-2) をサポートしている。<br>
 なので、OS11より古いOSでは、`平成32年`みたいな表記になる。<br>
 各OSで使っているICUのバージョンは[ここ](https://developer.android.com/guide/topics/resources/internationalization?hl=ja#versioning-nougat)を参照する<br>
 
